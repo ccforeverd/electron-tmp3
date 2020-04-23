@@ -5,6 +5,11 @@ import store from './store'
 import vuetify from './plugins/vuetify'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@mdi/font/css/materialdesignicons.css'
+import ElementUI from 'element-ui'
+import locale from 'element-ui/lib/locale/lang/zh-CN'
+import './styles.scss'
+
+Vue.use(ElementUI, { locale })
 
 Vue.config.productionTip = false
 
