@@ -39,6 +39,8 @@
 
     <v-content>
       <HelloWorld/>
+      <TestElementUI/>
+      <TestVuetify/>
     </v-content>
   </v-app>
 </template>
@@ -46,12 +48,16 @@
 <script lang="ts">
 import Vue from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import TestElementUI from './components/TestElementUI'
+import TestVuetify from './components/TestVuetify'
 
 export default Vue.extend({
   name: 'App',
 
   components: {
-    HelloWorld
+    HelloWorld,
+    TestElementUI,
+    TestVuetify
   },
 
   data: () => ({
